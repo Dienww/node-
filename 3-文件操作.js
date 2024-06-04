@@ -1,11 +1,11 @@
 
-// 新建一个文件（为什要要用脚本实现效果 实现自动化操作）
+// // 新建一个文件（为什要要用脚本实现效果 实现自动化操作）
 
-// 1、导入fs模块
-const fs = require('fs')
+// // 1、导入fs模块
+// const fs = require('fs')
 
-// 2、异步写入文件
-// fs.writeFile(FilePath, FileContent, Options-可选, callback)
+// // 2、异步写入文件
+// // fs.writeFile(FilePath, FileContent, Options-可选, callback)
 // fs.writeFile('./Z-fsTest.txt', '这是一个通过 fs 生成的文件', (err) => {
 //   if (err) {   // err 写入成功是 null ，写入失败是一个错误对象
 //     return console.log('写入失败' + err.message)
