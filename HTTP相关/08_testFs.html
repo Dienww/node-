@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    td {
+      width: 200px;
+      height: 50px;
+    }
+
+    table,
+    td {
+      border: 1px solid pink;
+    }
+
+    table tr:nth-child(odd) {
+      background-color: lightsteelblue;
+    }
+
+    table tr:nth-child(even) {
+      background-color: lightslategray;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td>name</td>
+      <td>ChuXi</td>
+    </tr>
+    <tr>
+      <td>common name</td>
+      <td>baby、small baby</td>
+    </tr>
+    <tr>
+      <td>master</td>
+      <td>dien</td>
+    </tr>
+  </table>
+</body>
+<script>
+  let tds = document.querySelectorAll('td')
+  console.log(tds)
+  //遍历
+  tds.forEach(item => {
+    item.onclick = function () {
+      this.style.background = 'lightslategray'
+    }
+  })
+</script>
+
+</html>
