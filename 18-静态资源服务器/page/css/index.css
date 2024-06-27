@@ -1,0 +1,16 @@
+.wrap{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 24px;
+}
+.desc{
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(41, 41, 41);
+}
+.cat-image {
+  width: 200px;
+}
